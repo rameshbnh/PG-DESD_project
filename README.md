@@ -1,8 +1,9 @@
 **CAN-Based Smart Vehicle Subsystem Simulation & Diagnostics**
-
+-----------------------------------------------------------------------------------------------------------------------------------------------
 **Project Overview**
+
 The project titled "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics" aims to simulate and implement a vehicle health monitoring system using STM32F407VGT6, BeagleBone Black, CAN Bus, and ESP modules. It collects real-time data from sensors measuring engine RPM, temperature, brake status and speed. The collected data is saved in CSV files and analyzed using machine learning algorithms for predictive fault detection alert. The system alerts users before faults occur and sends notifications to a dashboard, cloud, and mobile devices.
-        
+ ---------------------------------------------------------------------------------------------------------------------------------------       
 **Project Functionalities Implemented**
 
 1. Real-time data acquisition from sensors (RPM, temperature, brake pressure, speed and Battery status).
@@ -12,7 +13,7 @@ The project titled "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics
 5. Machine Learning algorithms for fault prediction.
 6. Alerts for engine failure, overheating, brake failure, and overspeeding.
 7. Cloud logging and mobile alert via ESP and ThingSpeak/Thingsboard/IFTTT(optional).
-        
+---------------------------------------------------------------------------------------------------------------------------------------
 **Hardware Requirements**
 
 **Mandatory:**
@@ -28,7 +29,7 @@ The project titled "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics
 - Battery sensor (INA219)
 - Speed Detection: Ultrasonic sensor
 
-
+---------------------------------------------------------------------------------------------------------------------------------------
 **Connection/Wiring Diagram :**
 
 
@@ -38,7 +39,7 @@ The project titled "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics
  
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------
 **Flow of Project:**
 
 **1.	Sensor Data Acquisition**
@@ -90,7 +91,7 @@ The project titled "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics
 •	Push buttons can be used to simulate faults or manually for demonstration.
 •	The system shows real-time sensor changes, CAN transmission, ML-based fault detection, and live alerts to a mobile device.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ******Demonstration and Fault Simulation******
 
 The system can demonstrate various fault scenarios by injecting conditions such as:
@@ -100,14 +101,15 @@ The system can demonstrate various fault scenarios by injecting conditions such 
 - Speed exceeding defined limit → Over speeding
 
 All such conditions trigger alerts to the dashboard, cloud, and mobile.
+---------------------------------------------------------------------------------------------------------------------------------------
+**Current Status of Predictive Maintenance in Industry**
 
-Current Status of Predictive Maintenance in Industry
 	OBD-II and CAN-based diagnostics: Fully implemented in vehicles.
 	Real-time alerts and remote diagnostics: Implemented in smart vehicles (Tesla, Hyundai, Mahindra).
 	Predictive maintenance using ML: Still emerging, mostly in fleets and premium EVs.
 	Cloud + ML integration: Implemented in high-end systems with OTA capabilities.
         
-        
+---------------------------------------------------------------------------------------------------------------------------------------   
 **Conclusion**
 
 This project successfully demonstrates the design and implementation of a real-time, modular smart vehicle diagnostic system using STM32 microcontrollers, CAN communication, and machine learning. By integrating critical vehicle and battery subsystems through a dual-node STM32 architecture, the system simulates the behavior of distributed automotive ECUs found in modern electric and autonomous vehicles.
