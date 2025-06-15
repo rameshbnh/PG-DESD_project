@@ -41,6 +41,7 @@ This Projects aims to simulate and implement a vehicle health monitoring system 
 
 **Block Diagram:**
  
+![Block_diagram jpg](https://github.com/user-attachments/assets/62b7c412-2d8f-4c69-9145-0c0fcca0a119)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
