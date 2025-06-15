@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CAN-Based Smart Vehicle System - Block Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .row {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .block {
+      border: 2px solid #444;
+      padding: 15px 25px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      min-width: 180px;
+      text-align: center;
+    }
+    .line {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 align="center">CAN-Based Smart Vehicle System - Block Diagram</h2>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="block">
+        STM32 Node 1<br><small>Engine RPM, Brake Pressure,<br>Speed, Engine Temp</small>
+      </div>
+      <div class="block">
+        STM32 Node 2<br><small>Battery Voltage, Battery Temp</small>
+      </div>
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="row">
+      <div class="block">MCP2551<br>CAN Transceiver</div>
+      <div class="block">MCP2551<br>CAN Transceiver</div>
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="block">CAN Bus</div>
+
+    <div class="line">↓</div>
+
+    <div class="block">
+      SN65HVD230<br>CAN Transceiver to BeagleBone
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="block">
+      BeagleBone Black<br><small>Data Logging + ML Fault Prediction</small>
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="block">
+      ESP32<br><small>UART to BeagleBone</small>
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="block">
+      Cloud<br><small>ThingSpeak / IFTTT</small>
+    </div>
+
+    <div class="line">↓</div>
+
+    <div class="block">
+      Mobile Alert<br><small>SMS / Notification</small>
+    </div>
+
+  </div>
+
+</body>
+</html>
