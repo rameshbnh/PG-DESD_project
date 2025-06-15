@@ -1,4 +1,4 @@
-**CAN-Based Smart Vehicle Subsystem Simulation & Diagnostics**
+![Untitled-2025-05-12-1316](https://github.com/user-attachments/assets/f9f998f6-6ebb-435c-8722-321ea9493e96)**CAN-Based Smart Vehicle Subsystem Simulation & Diagnostics**
 -----------------------------------------------------------------------------------------------------------------------------------------------
 **Project Overview**
 
@@ -35,6 +35,7 @@ This Projects aims to simulate and implement a vehicle health monitoring system 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **Connection/Wiring Diagram :**
 
+![Untitled-2025-05-12-1316](https://github.com/user-attachments/assets/170f4134-8d20-472d-856b-11539442e615)
 
 
 
