@@ -1,4 +1,4 @@
-![Untitled-2025-05-12-1316](https://github.com/user-attachments/assets/f9f998f6-6ebb-435c-8722-321ea9493e96)**CAN-Based Smart Vehicle Subsystem Simulation & Diagnostics**
+**CAN-Based Smart Vehicle Subsystem Simulation & Diagnostics**
 -----------------------------------------------------------------------------------------------------------------------------------------------
 **Project Overview**
 
