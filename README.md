@@ -2,9 +2,10 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------
 **Project Overview**
 
-The project titled : "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics".
+**The project titled : "CAN-Based Smart Vehicle Subsystem Simulation and Diagnostics".**
 
 This Projects aims to simulate and implement a vehicle health monitoring system using STM32F407VGT6, BeagleBone Black, CAN Bus, and ESP modules. It collects real-time data from sensors measuring engine RPM, temperature, brake status and speed. The collected data is saved in CSV files and analyzed using machine learning algorithms for predictive fault detection alert. The system alerts users before faults occur and sends notifications to a dashboard, cloud, and mobile devices.
+
  ---------------------------------------------------------------------------------------------------------------------------------------       
 **Project Functionalities Implemented**
 
