@@ -1,0 +1,13 @@
+../Core/Src/main.c:95:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:101:6:calculateRPM	2
+../Core/Src/main.c:122:5:main	1
+../Core/Src/main.c:223:6:SystemClock_Config	3
+../Core/Src/main.c:269:13:MX_ADC1_Init	3
+../Core/Src/main.c:318:13:MX_CAN1_Init	2
+../Core/Src/main.c:352:13:MX_TIM2_Init	4
+../Core/Src/main.c:400:13:MX_GPIO_Init	1
+../Core/Src/main.c:442:6:StartTask	1
+../Core/Src/main.c:463:6:StartADCTask	7
+../Core/Src/main.c:522:6:StartCANTask	2
+../Core/Src/main.c:582:6:StartEngineTask	1
+../Core/Src/main.c:600:6:Error_Handler	1
